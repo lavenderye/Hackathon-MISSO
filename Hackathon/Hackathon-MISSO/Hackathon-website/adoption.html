@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - LovingPawz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="products.html">Merch</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Pets</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Available</option>
+                <option>Sort by Breed</option>
+                <option>Sort by Age</option>
+                <option>Sort by Sex</option>
+                <option>Sort by PetID</option>
+            </select>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/Chihuahua.jpg">
+                <h4>Coco</h4>
+                <p>Gender: Female</p>
+                <p>Breed: Chihuahua</p>
+                <p>Age: 8 months</p>
+                <p>PetID: 123</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/LoganLay.JPG">
+                <h4>Logan</h4>
+                <p>Gender: Male</p>
+                <p>Breed: Miniature Schnauzer</p>
+                <p>Age: 2 years and 6 months</p>
+                <p>PetID: 124</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/Husky.png">
+                <h4>Lulu</h4>
+                <p>Gender: Female</p>
+                <p>Breed: Husky</p>
+                <p>Age: 6 months</p>
+                <p>PetID: 125</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/GoldenDoodle.jpg">
+                <h4>Lemon</h4>
+                <p>Gender: Female</p>
+                <p>Breed: GoldenDoodle</p>
+                <p>Age: 10 months</p>
+                <p>PetID: 126</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/LoganToy.JPG">
+                <h4>Pepper</h4>
+                <p>Gender: Male</p>
+                <p>Breed: Schnauzer</p>
+                <p>Age: 4 years old</p>
+                <p>PetID: 127</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/LeoToy.JPG">
+                <h4>Leo</h4>
+                <p>Gender: Male</p>
+                <p>Breed: Pomeranian</p>
+                <p>Age: 3 years old</p>
+                <p>PetID: 128</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/Bulldog.jpg">
+                <h4>Max</h4>
+                <p>Gender: Male</p>
+                <p>Breed: Bulldog</p>
+                <p>Age: 4 years and 5 months</p>
+                <p>PetID: 129</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/Boder Collie.jpg">
+                <h4>Happy</h4>
+                <p>Gender: Female</p>
+                <p>Breed: Boder Collie</p>
+                <p>Age: 1 year and 4 months</p>
+                <p>PetID: 130</p>
+                <p>Adoption fee: $100.00</p>
+                <div class="adopt-btn">
+                    <button type="submit" class="btn">Adopt</button>
+                    <a href="" className="btn">Adopt</a>
+                </div>
+                <div class="foster-btn">
+                    <a href="" className="btn">Foster</a>
+                </div>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/PinkHoodieDone.png">
+                <h4>LovingPawz Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <a href="cart.html" className="btn">Add To Cart</a>
+                </div>
+                <p>$30.00</p>
+                <br>
+                <a href="cart.html" className="btn">Add To Cart</a>
+            </div>
+            <div class="col-4">
+                <img src="images/GreyHoodieDone.png">
+                <h4>LovingPawz Hoodie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <a href="cart.html" className="btn">Add To Cart</a>
+                </div>
+                <p>$30.00</p>
+                <br>
+                <a href="cart.html" className="btn">Add To Cart</a>
+            </div>
+            <div class="col-4">
+                <img src="images/RedCapDone.png">
+                <h4>LovingPawz Cap</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <a href="cart.html" className="btn">Add To Cart</a>
+                </div>
+                <p>$20.00</p>
+                <br>
+                <a href="cart.html" className="btn">Add To Cart</a>
+            </div>
+            <div class="col-4">
+                <img src="images/mugdone.png">
+                <h4>LovingPawz Mug</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    
+                </div>
+                <p>$12.00</p>
+                <br>
+                <a href="cart.html" className="btn">Add To Cart</a>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+    <!-------- Footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App on Google Play or the App Store.</p>
+                    <div class="app-logo">
+                        <img src="images/playstore.png">
+                        <img src="images/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Appointment Hours</h3>
+                    <p>Appointment hours are between 10:00 a.m. and 7:00 p.m. Please schedule accordingly.</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - EMAJJ</p>
+        </div>
+    </div>
+    <!-------- js for toggle menu -------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
